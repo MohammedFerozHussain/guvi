@@ -1,0 +1,9 @@
+#q
+x,b=map(int,input().split())
+c,d=map(int,input().split())
+e,f=map(int,input().split())
+g,h=map(int,input().split())
+if(x+c+e+g==b+d+f+h):
+    print("yes")
+else:
+    print("no")
